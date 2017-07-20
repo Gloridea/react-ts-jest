@@ -40,6 +40,11 @@
     "moduleNameMapper": {
       "^.+\\.css$": "identity-obj-proxy"
     },
+    "mapCoverage": true,
+    "coverageReporters": [
+      "html",
+      "text"
+    ],
     "moduleFileExtensions": [
       "ts",
       "tsx",
