@@ -13,7 +13,11 @@
     "react-dom": "^15.6.1"
   },
   "devDependencies": {
+    "@types/enzyme": "^2.8.2",
+    "@types/enzyme-to-json": "^1.5.0",
     "@types/react-test-renderer": "^15.5.2",
+    "enzyme": "^2.9.1",
+    "enzyme-to-json": "^1.5.1",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^20.0.4",
     "react-scripts-ts": "2.4.0",
@@ -42,6 +46,9 @@
       "js",
       "json",
       "jsx"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
     ]
   },
   "globals": {
