@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoList should contain added todo item 1`] = `
+<ul
+  className="TodoList"
+>
+  <li
+    className=""
+  >
+    <input
+      checked={false}
+      onClick={[Function]}
+      type="checkbox"
+    />
+    hello
+  </li>
+</ul>
+`;

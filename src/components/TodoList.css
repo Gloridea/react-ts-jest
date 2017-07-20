@@ -1,0 +1,7 @@
+.TodoList {
+    text-align: left;
+}
+
+.TodoList--Item--Done {
+    text-decoration: line-through;
+}
